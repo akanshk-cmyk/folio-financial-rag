@@ -135,3 +135,12 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements / Credits
 
 Built with Streamlit, LangChain, HuggingFace/Sentence Transformers, PyMuPDF, Pinecone, FlashRank, Nebius, and RAGAS. Apple SEC filings provide the evaluation evidence.
+
+<img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/41e7d8d0-7566-4f3d-bfe9-d9904b8991cd" />
+<img width="1582" height="897" alt="image" src="https://github.com/user-attachments/assets/10827636-5dfe-4a84-af61-5eaf4fa26541" />
+<img width="1547" height="861" alt="image" src="https://github.com/user-attachments/assets/86f5229c-fc6f-48c7-b5e4-02c8522df432" />
+<img width="1560" height="567" alt="image" src="https://github.com/user-attachments/assets/af19b74a-a263-4c4f-8060-3efbe10891e5" />
+<img width="1562" height="860" alt="image" src="https://github.com/user-attachments/assets/c5f5da39-10c9-4985-8642-e3b11c0cccf8" />
+
+
+
