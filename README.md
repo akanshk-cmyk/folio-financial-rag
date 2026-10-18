@@ -90,7 +90,6 @@ Set values in your local `.env`; never commit API keys.
 
 Overview calculations and local indexing do not need a generation API key.
 Nebius uses an OpenAI-compatible client, but requests go to Nebius and use the Nebius key.
-Other provider settings are listed in [.env.example](.env.example).
 
 ## Testing
 
@@ -117,8 +116,6 @@ Faithfulness checks answer support, precision checks passage relevance, and reca
 There were **28 responses with findings** and **17 insufficient-evidence responses**. Semantic search answered 14 of 15 questions with findings and performed best on this set. All methods left the accounting-policy question unanswered. RAGAS scores are model judgments, not proof of financial accuracy.
 
 The comparison used the same corpus, embeddings, generation settings, and corrected statement tools. Semantic and reranked searches shared candidate pools; adaptive QA was off. All metrics have 15 finite scores per configuration. Earlier partial scores covered 11 questions per configuration.
-
-See the [measured results and historical comparison](docs/evaluation/postfix-summary.json). Local `runs/` folders retain detailed evidence and settings and are excluded from Git. Published examples include the final answers and scores; full local vector indexes and raw run files are not included.
 
 ## Roadmap / Future Improvements
 
