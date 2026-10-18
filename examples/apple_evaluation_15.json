@@ -1,0 +1,318 @@
+[
+  {
+    "id": "Q01",
+    "question": "What was Apple's total net sales for fiscal year 2024?",
+    "reference": "Total net sales were USD 391,035 million in FY2024.",
+    "expected_numbers": [
+      "391035"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      41
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "What was Apple's total net sales for fiscal year 2025?",
+    "reference": "Total net sales were USD 416,161 million in FY2025.",
+    "expected_numbers": [
+      "416161"
+    ],
+    "source_filing_year": 2025,
+    "reporting_year": 2025,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2025
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      41
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "What was Apple's net income in fiscal year 2024?",
+    "reference": "Net income was USD 93,736 million in FY2024.",
+    "expected_numbers": [
+      "93736"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      41
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "What was Apple's diluted earnings per share for fiscal year 2025?",
+    "reference": "Diluted earnings per share were USD 7.46 in FY2025.",
+    "expected_numbers": [
+      "7.46"
+    ],
+    "source_filing_year": 2025,
+    "reporting_year": 2025,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2025
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      41
+    ]
+  },
+  {
+    "id": "Q05",
+    "question": "How much did Apple spend on research and development in fiscal year 2024?",
+    "reference": "Research and development expense was USD 31,370 million in FY2024.",
+    "expected_numbers": [
+      "31370"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      41
+    ]
+  },
+  {
+    "id": "Q06",
+    "question": "What was Apple's iPhone segment net sales in fiscal year 2024?",
+    "reference": "iPhone category net sales were USD 201,183 million in FY2024. iPhone is a product category, not a reportable segment.",
+    "expected_numbers": [
+      "201183"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      47
+    ]
+  },
+  {
+    "id": "Q07",
+    "question": "What was Apple's Services segment net sales in fiscal year 2024?",
+    "reference": "Services category net sales were USD 96,169 million in FY2024. Services is a category, not a reportable segment.",
+    "expected_numbers": [
+      "96169"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      41,
+      47
+    ]
+  },
+  {
+    "id": "Q08",
+    "question": "What was Apple's gross margin percentage in fiscal year 2024?",
+    "reference": "Total gross margin percentage was 46.2% in FY2024, distinct from Products margin of 37.2% and Services margin of 73.9%.",
+    "expected_numbers": [
+      "46.2"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      34
+    ]
+  },
+  {
+    "id": "Q09",
+    "question": "What was Apple's total net sales for the Mac product line in fiscal year 2024?",
+    "reference": "Mac net sales were USD 29,984 million in FY2024.",
+    "expected_numbers": [
+      "29984"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      47
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "What was Apple's total net sales for the Wearables, Home and Accessories category in fiscal year 2024?",
+    "reference": "Wearables, Home and Accessories net sales were USD 37,005 million in FY2024.",
+    "expected_numbers": [
+      "37005"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      47
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "How did Apple's total net sales change between fiscal year 2023 and fiscal year 2024?",
+    "reference": "Total net sales increased from USD 383,285 million in FY2023 to USD 391,035 million in FY2024, an increase of USD 7,750 million. The filing reports growth rounded to 2%.",
+    "expected_numbers": [
+      "383285",
+      "391035",
+      "7750"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      41
+    ],
+    "reference_calculation": {
+      "formula": "(391035 - 383285) / 383285 * 100",
+      "increase_usd_millions": "7750",
+      "growth_percent": "2.021994077514121345734897009"
+    }
+  },
+  {
+    "id": "Q12",
+    "question": "What was Apple's total net sales for fiscal year 2023 (as reported in the FY2024 filing's comparative table)?",
+    "reference": "FY2023 total net sales were USD 383,285 million in the FY2024 filing's comparative table.",
+    "expected_numbers": [
+      "383285"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2023,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      33,
+      41
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "What operating expenses did Apple report in fiscal year 2024?",
+    "reference": "FY2024 operating expenses were research and development of USD 31,370 million and selling, general and administrative expenses of USD 26,097 million, totaling USD 57,467 million.",
+    "expected_numbers": [
+      "31370",
+      "26097",
+      "57467"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      34,
+      41
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "What was Apple's cash and cash equivalents position at the end of fiscal year 2024?",
+    "reference": "Cash and cash equivalents were USD 29,943 million as of September 28, 2024.",
+    "expected_numbers": [
+      "29943"
+    ],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      43
+    ]
+  },
+  {
+    "id": "Q15",
+    "question": "What risk factors did Apple disclose related to supply chain in the FY2024 filing?",
+    "reference": "Apple disclosed concentrated manufacturing and reliance on outsourcing partners, including single or limited sources; shortages and component price fluctuations; trade restrictions and geopolitical conflict; and natural disasters, public health events and other disruptions. These risks can delay supply and delivery, raise costs, and reduce production control.",
+    "expected_numbers": [],
+    "source_filing_year": 2024,
+    "reporting_year": 2024,
+    "filters": {
+      "ticker": "AAPL",
+      "fiscal_year": [
+        2024
+      ],
+      "doc_type": "10-K"
+    },
+    "acceptable_pdf_pages": [
+      10,
+      13
+    ]
+  }
+]

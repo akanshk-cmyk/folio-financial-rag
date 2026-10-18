@@ -1,0 +1,16 @@
+# Context: host the demo on this computer and reload when source files change.
+[server]
+address = "127.0.0.1"
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#583044"
+backgroundColor = "#f8f6f2"
+secondaryBackgroundColor = "#efe8eb"
+textColor = "#372631"

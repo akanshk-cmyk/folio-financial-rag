@@ -1,0 +1,219 @@
+[
+  {
+    "id": "Q01",
+    "question": "According to the FY2024 filing, what were Apple\u2019s total net sales for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 total net sales: USD 391,035 million.",
+    "expected_numbers": [
+      "391035"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q02",
+    "question": "According to the FY2025 filing, what were Apple\u2019s total net sales for fiscal year 2025, in USD millions?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 total net sales: USD 416,161 million.",
+    "expected_numbers": [
+      "416161"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q03",
+    "question": "According to the FY2024 filing, what was Apple\u2019s net income for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 net income: USD 93,736 million.",
+    "expected_numbers": [
+      "93736"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q04",
+    "question": "According to the FY2025 filing, what was Apple\u2019s diluted earnings per share for fiscal year 2025, in USD per share?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 diluted earnings per share: USD 7.46 per share.",
+    "expected_numbers": [
+      "7.46"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q05",
+    "question": "According to the FY2024 filing, what research and development expense did Apple report for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 research and development expense: USD 31,370 million.",
+    "expected_numbers": [
+      "31370"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q06",
+    "question": "According to the FY2025 filing, what were Apple\u2019s iPhone net sales for fiscal year 2025, in USD millions?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 iPhone net sales: USD 209,586 million.",
+    "expected_numbers": [
+      "209586"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q07",
+    "question": "According to the FY2024 filing, what were Apple\u2019s Services net sales for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 Services net sales: USD 96,169 million.",
+    "expected_numbers": [
+      "96169"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q08",
+    "question": "According to the FY2025 filing, what was Apple\u2019s total company gross margin percentage for fiscal year 2025?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 total company gross margin percentage: 46.9%.",
+    "expected_numbers": [
+      "46.9"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q09",
+    "question": "According to the FY2024 filing, what were Apple\u2019s Mac net sales for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 Mac net sales: USD 29,984 million.",
+    "expected_numbers": [
+      "29984"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q10",
+    "question": "According to the FY2025 filing, what were Apple\u2019s net sales for the Wearables, Home and Accessories category for fiscal year 2025, in USD millions?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 Wearables, Home and Accessories net sales: USD 35,686 million.",
+    "expected_numbers": [
+      "35686"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q11",
+    "question": "Using fiscal year 2023 and fiscal year 2024 total net sales from the FY2024 filing, what were the absolute change in USD millions and the percentage change, rounded to two decimal places?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 total net sales of USD 391,035 million minus FY2023 total net sales of USD 383,285 million gives an absolute increase of USD 7,750 million. Percentage change = (391035 - 383285) / 383285 * 100 = 2.02% rounded to two decimal places.",
+    "expected_numbers": [
+      "7750",
+      "2.02"
+    ],
+    "required_calculations": [
+      "difference",
+      "growth"
+    ],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q12",
+    "question": "Using fiscal year 2024 Services net sales from the FY2024 filing and fiscal year 2025 Services net sales from the FY2025 filing, what was the percentage growth in Services net sales, rounded to two decimal places? Cite both filings.",
+    "fiscal_years": [
+      2024,
+      2025
+    ],
+    "reference": "FY2024 Services net sales from the FY2024 filing were USD 96,169 million; FY2025 Services net sales from the FY2025 filing were USD 109,158 million. Growth = (109158 - 96169) / 96169 * 100 = 13.51% rounded to two decimal places. Cite both source filings.",
+    "expected_numbers": [
+      "13.51"
+    ],
+    "required_calculations": [
+      "growth"
+    ],
+    "require_both_filings": true,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q13",
+    "question": "According to the FY2024 filing, what were Apple\u2019s research and development expense, selling, general and administrative expense, and total operating expenses for fiscal year 2024, in USD millions?",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "FY2024 research and development expense: USD 31,370 million; selling, general and administrative expense: USD 26,097 million; total operating expenses: USD 57,467 million.",
+    "expected_numbers": [
+      "31370",
+      "26097",
+      "57467"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q14",
+    "question": "According to the FY2025 consolidated statement of cash flows, what was Apple\u2019s net cash provided by operating activities for fiscal year 2025, in USD millions?",
+    "fiscal_years": [
+      2025
+    ],
+    "reference": "FY2025 cash generated by operating activities, the cash-flow statement's reported operating cash flow: USD 111,482 million.",
+    "expected_numbers": [
+      "111482"
+    ],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 0
+  },
+  {
+    "id": "Q15",
+    "question": "According to the Risk Factors section of the FY2024 filing, what were three distinct risks associated with Apple\u2019s supply chain or outsourced manufacturing? Provide a supporting citation for each risk.",
+    "fiscal_years": [
+      2024
+    ],
+    "reference": "Three supported risks are: (1) dependence on concentrated outsourcing partners, many outside the US, reduces control over manufacturing and distribution; (2) single/limited-source components and shortages expose Apple to supply constraints and price increases; (3) trade restrictions, geopolitical conflict, natural disasters and public-health events can interrupt manufacturing and logistics, raise costs, or delay deliveries. Cite a supporting Risk Factors passage for each distinct risk.",
+    "expected_numbers": [],
+    "required_calculations": [],
+    "require_both_filings": false,
+    "minimum_risk_claims": 3
+  }
+]

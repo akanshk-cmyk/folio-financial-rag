@@ -1,0 +1,14 @@
+[
+  {
+    "id": "aapl-2024-revenue",
+    "question": "What was Apple's total net sales in fiscal year 2024?",
+    "reference": "REPLACE WITH A MANUALLY VERIFIED ANSWER AND SOURCE LOCATION BEFORE EVALUATION",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-revenue",
+    "question": "What was Apple's total net sales in fiscal year 2025?",
+    "reference": "REPLACE WITH A MANUALLY VERIFIED ANSWER AND SOURCE LOCATION BEFORE EVALUATION",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  }
+]

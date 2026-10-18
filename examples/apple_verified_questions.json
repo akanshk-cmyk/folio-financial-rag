@@ -1,0 +1,72 @@
+[
+  {
+    "id": "aapl-2024-sales",
+    "question": "What were Apple's total net sales in FY2024?",
+    "reference": "Apple's FY2024 total net sales were USD 391,035 million.",
+    "reference_location": "FY2024 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-sales",
+    "question": "What were Apple's total net sales in FY2025?",
+    "reference": "Apple's FY2025 total net sales were USD 416,161 million.",
+    "reference_location": "FY2025 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2024-operating-income",
+    "question": "What was Apple's operating income in FY2024?",
+    "reference": "Apple's FY2024 operating income was USD 123,216 million.",
+    "reference_location": "FY2024 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-operating-income",
+    "question": "What was Apple's operating income in FY2025?",
+    "reference": "Apple's FY2025 operating income was USD 133,050 million.",
+    "reference_location": "FY2025 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2024-net-income",
+    "question": "What was Apple's net income in FY2024?",
+    "reference": "Apple's FY2024 net income was USD 93,736 million.",
+    "reference_location": "FY2024 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-net-income",
+    "question": "What was Apple's net income in FY2025?",
+    "reference": "Apple's FY2025 net income was USD 112,010 million.",
+    "reference_location": "FY2025 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2024-rd",
+    "question": "What was Apple's research and development expense in FY2024?",
+    "reference": "Apple's FY2024 research and development expense was USD 31,370 million.",
+    "reference_location": "FY2024 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-rd",
+    "question": "What was Apple's research and development expense in FY2025?",
+    "reference": "Apple's FY2025 research and development expense was USD 34,550 million.",
+    "reference_location": "FY2025 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2024-diluted-eps",
+    "question": "What was Apple's diluted earnings per share in FY2024?",
+    "reference": "Apple's FY2024 diluted earnings per share was USD 6.08 per share.",
+    "reference_location": "FY2024 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2024, "doc_type": "10-K"}
+  },
+  {
+    "id": "aapl-2025-diluted-eps",
+    "question": "What was Apple's diluted earnings per share in FY2025?",
+    "reference": "Apple's FY2025 diluted earnings per share was USD 7.46 per share.",
+    "reference_location": "FY2025 filing, PDF page 41, printed page 29, Consolidated Statements of Operations",
+    "filters": {"ticker": "AAPL", "fiscal_year": 2025, "doc_type": "10-K"}
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "questions": 15,
+  "generation_cases": 45,
+  "judged_responses": 45,
+  "statuses": {
+    "generated": 45
+  },
+  "responses_with_findings": 28,
+  "insufficient_evidence_responses": 17,
+  "identical_B_C_candidate_pools": true,
+  "latest_scores": {
+    "A": {
+      "questions": 15,
+      "finite_score_counts": {
+        "faithfulness": 15,
+        "llm_context_precision_with_reference": 15,
+        "context_recall": 15
+      },
+      "faithfulness": 0.26666666666666666,
+      "llm_context_precision_with_reference": 0.2222222222,
+      "context_recall": 0.26666666666666666
+    },
+    "B": {
+      "questions": 15,
+      "finite_score_counts": {
+        "faithfulness": 15,
+        "llm_context_precision_with_reference": 15,
+        "context_recall": 15
+      },
+      "faithfulness": 0.9666666666666667,
+      "llm_context_precision_with_reference": 0.7555555554966666,
+      "context_recall": 0.9333333333333333
+    },
+    "C": {
+      "questions": 15,
+      "finite_score_counts": {
+        "faithfulness": 15,
+        "llm_context_precision_with_reference": 15,
+        "context_recall": 15
+      },
+      "faithfulness": 0.7666666666666667,
+      "llm_context_precision_with_reference": 0.6666666666166667,
+      "context_recall": 0.7333333333333333
+    }
+  },
+  "common_question_ids_for_historical_comparison": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q14"
+  ],
+  "common_subset_comparison": {
+    "A": {
+      "before": {
+        "faithfulness": {
+          "mean": 0.18181818181818182,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.2121212121,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.2727272727272727,
+          "scored_cases": 11
+        }
+      },
+      "after": {
+        "faithfulness": {
+          "mean": 0.2727272727272727,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.2121212121,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.2727272727272727,
+          "scored_cases": 11
+        }
+      }
+    },
+    "B": {
+      "before": {
+        "faithfulness": {
+          "mean": 0.9090909090909091,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.6212121211545454,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.8181818181818182,
+          "scored_cases": 11
+        }
+      },
+      "after": {
+        "faithfulness": {
+          "mean": 0.9545454545454546,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.7121212120636363,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.9090909090909091,
+          "scored_cases": 11
+        }
+      }
+    },
+    "C": {
+      "before": {
+        "faithfulness": {
+          "mean": 0.2727272727272727,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.1818181818,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.2727272727272727,
+          "scored_cases": 11
+        }
+      },
+      "after": {
+        "faithfulness": {
+          "mean": 0.6818181818181818,
+          "scored_cases": 11
+        },
+        "llm_context_precision_with_reference": {
+          "mean": 0.5454545454136364,
+          "scored_cases": 11
+        },
+        "context_recall": {
+          "mean": 0.6363636363636364,
+          "scored_cases": 11
+        }
+      }
+    }
+  },
+  "caveat": "RAGAS is LLM-judged, not financial answer accuracy. Routing, parser and calculator changes are shared across the corrected configurations. Full-run and historical matched-subset denominators differ."
+}

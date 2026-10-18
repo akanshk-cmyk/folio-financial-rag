@@ -1,0 +1,37 @@
+[project]
+name = "financial-report-rag"
+version = "0.1.0"
+description = "Auditable financial RAG with controlled chunking experiments"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-core>=0.3.86,<0.4",
+    "langchain-text-splitters>=0.3.11,<0.4",
+    "langchain-experimental>=0.3.4,<0.4",
+    "pydantic>=2.7,<3",
+]
+
+# Context: LCEL and both LangChain splitters are core dependencies. Heavy model
+# runtimes remain optional; installing the core does not download BGE weights.
+[project.optional-dependencies]
+demo = ["streamlit>=1.45,<2"]
+# Context: Nebius uses these compatible clients with its own key and endpoint.
+nebius = ["openai>=2.54,<3", "langchain-openai>=0.3.35,<0.4"]
+openai = ["openai>=2.54,<3", "langchain-openai>=0.3.35,<0.4"]
+pdf = ["pymupdf>=1.26,<2"]
+models = ["sentence-transformers>=3,<6", "flashrank>=0.2.10,<0.3"]
+cloud = ["groq>=0.31,<2", "pinecone>=6,<9"]
+evaluation = ["ragas>=0.3.9,<0.4", "langchain-groq>=0.3,<0.4"]
+research = ["yfinance>=0.2,<2", "ddgs>=9,<10", "requests>=2.32,<3", "langchain-groq>=0.3,<0.4"]
+# Context: the separate Colab demo uses temporary PostgreSQL, not Pinecone.
+colab = ["psycopg[binary]>=3.2,<4", "pgvector>=0.3,<0.5", "pypdf>=5,<7",
+         "ddgs>=9,<10", "newspaper4k>=0.9,<1", "yfinance>=0.2,<2"]
+
+[project.scripts]
+financial-rag = "financial_rag.cli:main"
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["financial_rag*"]
