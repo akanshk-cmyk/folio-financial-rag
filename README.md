@@ -127,7 +127,6 @@ The comparison used the same corpus, embeddings, generation settings, and correc
 
 ## Roadmap / Future Improvements
 
-- Add OCR and improve support for complex financial tables.
 - Improve evidence coverage for accounting policies and long passages.
 - Test more companies, filing layouts, and financial questions.
 - Add stronger checks for restatements, reporting periods, and answer completeness.
