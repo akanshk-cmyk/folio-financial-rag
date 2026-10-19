@@ -1,4 +1,4 @@
-# Folio ? Financial Report Intelligence
+# Folio - Financial Report Intelligence
 
 *Read company reports, compare financial results, and get answers with source evidence.*
 
@@ -14,7 +14,7 @@ Folio helps users understand annual reports without searching through every page
 Upload a company's 10-K PDF, compare its financial statements, and ask questions.
 Answers include the source passages and calculation details so you can check the results.
 
-**How it works:** PDF ? extract text and tables ? split into passages ? search relevant evidence ? generate an answer with Nebius ? check citations and numbers ? show the answer and evidence.
+**How it works:** PDF -> extract text and tables -> split into passages -> search relevant evidence -> generate an answer with Nebius -> check citations and numbers -> show the answer and evidence.
 
 Optional adaptive QA checks evidence relevance, retries retrieval, and checks answer grounding.
 The Overview calculates figures directly from recognized statements.
